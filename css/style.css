@@ -71,7 +71,6 @@ p {
     flex-direction: column;
     padding: 8px;
     border-radius: 0;
-    opacity: 0;
     visibility: hidden;
 }
 

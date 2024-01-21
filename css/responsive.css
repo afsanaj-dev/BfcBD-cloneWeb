@@ -7,12 +7,28 @@
         border: 1px solid #fff;
         color: transparent;
     }
+    .navbar-nav{
+        background-color: #473c3c;
+        position: absolute;
+        left: -50px;
+        z-index: 500;
+        max-width: 300px;
+    }
     .navbar-toggler span{
         color: #fff;
     }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+      }
+    .dropdown-menu{
+        right: 0;
+    }
     /* ------------Banner------------ */
     #banner{
-        padding: 180px 0;
+        padding: 240px 0;
+    }
+    .banner{
+        z-index: 1;
     }
     .banner_wrap{
         width: auto;
