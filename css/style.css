@@ -1,0 +1,457 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+/* ================COMMON STARTS================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8px;
+}
+
+/* ================COMMON ENDS================= */
+/* ================NAVBAR STARTS================= */
+.menubar {
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-link:hover {
+    color: #ffc80a;
+}
+
+.nav-link.active {
+    color: #ffc80a !important;
+}
+.dropdown{
+    color: #fff;
+    position: relative;
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 160px;
+    transition: all 500ms ease;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-item {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 8px 24px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+.dropdown-item:hover {
+    background: #C20D00;
+    color: #ffc80a;
+}
+
+/* ================NAVBAR ENDS================= */
+/* ================BANNER STARTS================= */
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url(../images/banner1.jpg) no-repeat center/cover;
+    padding: 300px 0;
+}
+
+.banner h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
+}
+
+.banner a {
+    background: #c20d00;
+    color: #fff;
+    padding: 0.8em 3em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    border: transparent;
+    transition: all 500ms ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.banner_wrap {
+    position: relative;
+}
+
+.banner_bottom {
+    position: absolute;
+    display: flex;
+    bottom: -240px;
+    left: 0;
+    justify-content: space-between;
+}
+
+.banner_social {
+    display: flex;
+    gap: 30px;
+}
+
+.banner_social a {
+    font-size: 13px;
+    color: #fff;
+}
+
+.banner_order {
+    display: flex;
+    gap: 10px;
+}
+
+.banner_order span {
+    font-size: 13px;
+    color: #fff;
+}
+
+.banner_order h3 {
+    line-height: 18px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ================BANNER ENDS================= */
+/* ================ABOUT  STARTS================= */
+#about {
+    padding: 80px 0 50px 0;
+}
+
+.about_wrap {
+    display: flex;
+    gap: 30px;
+}
+
+.about_left h3 {
+    padding-top: 70px;
+    font-size: 1.7em;
+    letter-spacing: 6px;
+    line-height: 1.5em;
+    margin: 1em 0;
+    color: #272525;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about_left p {
+    text-align: justify;
+    font-size: 0.9em;
+    color: #2e2e2e;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ================ABOUT  ENDS================= */
+/* ================FOOD_ITEM STARTS============= */
+#food_item {
+    background: #C20D00;
+    padding: 120px 0 130px 0;
+}
+.food_head{
+    max-width: 100%;
+}
+.food_item_head {
+    font-size: 2.3em;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+    text-transform: uppercase;
+}
+
+.food_item_wrap {
+    margin-top: 100px;
+}
+
+.food_item {
+    text-align: center;
+}
+
+.food_item img {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+    transition: all 500ms ease;
+}
+
+.food_item h3 {
+    font-size: 1em;
+    color: #ffc80a;
+    margin: 2.5em 0 0em 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.food_item p {
+    text-align: center;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+}
+
+/* ================FOOD_ITEM ENDS============== */
+/* ================GALLERY STARTS=============== */
+#gallery {
+    padding: 120px 0;
+}
+
+.gallery_head h3 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: #33353a;
+    text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image:hover{
+    text-decoration: none;
+    opacity: 0.8;
+    box-shadow: 0 20px 10px -12px rgba(0, 0, 0, .3);
+}
+/* ================GALLERY ENDS=============== */
+/* ================REVIEW STARTS=============== */
+#review {
+    padding: 80px 0 150px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url(../images/banner3.jpg) no-repeat center/cover;
+}
+
+.review_item {
+    text-align: center;
+}
+
+.review_item h3 {
+    margin-top: 50px;
+    font-size: 1.4em;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+.review_star {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_star span {
+    color: #ffc80a;
+    font-size: 0.8em;
+}
+
+.review_item p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.q_mark {
+    padding-top: 10px;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+/* ================REVIEW ENDS=============== */
+/* ================CONTACT STARTS=============== */
+#contact {
+    padding: 120px 0;
+}
+
+.contact_wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_item {
+    display: flex;
+    gap: 40px;
+}
+
+.contact_icon span {
+    color: #46484c;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.contact_info {
+    margin-top: 15px;
+}
+
+.contact_info h4 {
+    font-size: 1em;
+    color: #17202A;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif
+}
+
+.contact_info p {
+    font-size: 0.9em;
+    color: #5a646b;
+    letter-spacing: 1px;
+    line-height: 1.9em;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ================CONTACT ENDS=============== */
+/* ================FOOTER STARTS=============== */
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url(../images/banner2.jpg) no-repeat center/cover;
+    padding: 100px 0 80px 0;
+}
+
+.footer_left a {
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffc80a;
+    font-family: 'Oswald', sans-serif
+}
+
+.footer_left a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.outlet h3, .contact_us h3{
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+.outlet hr,.contact_us hr{
+    margin-top: 1.5em;
+    border-top: 1px solid #c4c2c2;
+    box-sizing: content-box;
+    overflow: visible;
+}
+.outlet p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;    
+}
+.contact_us ul{
+    margin-top: 20px;
+    padding-left: 0;
+}
+.contact_us p,.contact_us a{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.contact_us a{
+    font-size: 14px;
+    text-decoration:underline;
+    transition: all 500ms ease;
+}
+.contact_us a:hover{
+    color: #15b915;
+}
+.footer_bottom p{
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.9em;
+    margin: 60px 0 20px 0;
+    font-family: 'Raleway', sans-serif; 
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer_social a{
+    color: #fff;
+    font-size: 14px;
+}
+.footer_social a:hover{
+    color: #ffc80a;
+}
+/* ================FOOTER ENDS=============== */

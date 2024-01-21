@@ -1,0 +1,60 @@
+@media(max-width:575.98px){
+    .container{
+        width: auto;
+    }
+    /* -----------------navbar--------------- */
+    .navbar-toggler{
+        border: 1px solid #fff;
+        color: transparent;
+    }
+    .navbar-toggler span{
+        color: #fff;
+    }
+    /* ------------Banner------------ */
+    #banner{
+        padding: 180px 0;
+    }
+    .banner_wrap{
+        width: auto;
+    }
+    .banner h2 {
+        letter-spacing: 3px;
+    }
+    .banner_bottom{
+        flex-wrap: wrap;
+        bottom: -155px;
+        gap: 20px;
+        justify-content: center;
+    }
+    /* -------------About------------ */
+    .about_wrap {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    /* ------------Food Item-------------- */ 
+    .food_item_head{
+        line-height: 50px;
+    }
+    .food_item_wrap {
+        margin-top: 70px;
+      }
+    /* ------------gallery-------- */
+    .gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image:hover{
+        box-shadow: none;
+    } 
+    /* --------------Contact us----------- */
+    .contact_wrap {
+        flex-wrap: wrap;
+    }
+}
